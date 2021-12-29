@@ -1,0 +1,39 @@
+{
+  "name": "merkle-airdrop",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "clean": "hardhat clean",
+    "coverage": "RUN_COVERAGE=1 hardhat coverage",
+    "docs": "hardhat docgen"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-etherscan": "^2.1.7",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "@openzeppelin/contracts": "^4.3.2",
+    "@typechain/ethers-v5": "^7.2.0",
+    "@typechain/hardhat": "^2.3.1",
+    "@types/chai": "^4.2.22",
+    "@types/mocha": "^9.0.0",
+    "@types/node": "^16.11.7",
+    "@typescript-eslint/eslint-plugin": "^4.33.0",
+    "@typescript-eslint/parser": "^4.33.0",
+    "chai": "^4.3.4",
+    "dotenv": "^10.0.0",
+    "ethereum-waffle": "^3.4.0",
+    "ethers": "^5.5.1",
+    "hardhat": "^2.6.8",
+    "hardhat-contract-sizer": "^2.1.1",
+    "hardhat-deploy": "^0.9.5",
+    "hardhat-docgen": "^1.2.0",
+    "hardhat-gas-reporter": "^1.0.4",
+    "keccak256": "^1.0.6",
+    "merkletreejs": "^0.2.27",
+    "solhint": "^3.3.6",
+    "solidity-coverage": "^0.7.17",
+    "ts-node": "^10.4.0",
+    "typechain": "^5.2.0",
+    "typescript": "^4.4.4"
+  }
+}
